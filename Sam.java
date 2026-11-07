@@ -1,7 +1,16 @@
+import java.util.Scanner;
+
 public class Sam {
 
     public static void main(String ar[])
     {
-        System.out.println("Hello World");
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter a number ");
+
+        
+        int a=s.nextInt();
+        int b=s.nextInt();
+
+        System.out.println(a+" "+b);
     }
 }
